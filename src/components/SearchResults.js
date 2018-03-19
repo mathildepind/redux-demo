@@ -1,5 +1,6 @@
 import React from 'react';
 import SearchResult from './SearchResult';
+import PropTypes from 'prop-types';
 
 function SearchResults ({results, playVideo}) {
   return (
