@@ -45,4 +45,7 @@ class Player extends React.Component {
   }
 };
 
+Player.propTypes = {
+  videoId: PropTypes.string.isRequired,
+};
 export default Player;

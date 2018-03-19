@@ -43,7 +43,7 @@ class Search extends React.Component {
           query={this.state.query}
         />
         <SearchResults
-          playVideo={this.props.playVideo}
+          playVideo={playVideo}
           results={this.state.results}
         />
       </div>
@@ -51,4 +51,7 @@ class Search extends React.Component {
   }
 };
 
+Search.propTypes = {
+  playVideo: PropTypes.func.isRequired
+};
 export default Search;
